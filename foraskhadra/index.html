@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرص خضراء |الفرص المتاحة</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- === Headre === -->
+    <header>
+        <!-- === Navbar === -->
+        <div class="navbar">
+            <div class="container navbar__inner">
+                <div class="navbar__logo">
+                    <img src="images/original-Logo.png" alt="logo" class="logo-icon">
+                    <div class="logo-text">
+                        <span class="logo-ar">فرص خضراء</span>
+                        <span class="logo-en">FORAS KHADRA</span>
+                    </div>
+                </div>
+                <nav class="navbar__links">
+                    <a href="#">الرئيسية</a>
+                    <a href="#" class="active">الفرص</a>
+                    <a href="#">عن المنصة</a>
+                    <a href="#">تواصل معنا</a>
+                </nav>
+                <button class="navbar__cta">انضم الآن</button>
+                <button class="navbar__burger" id="burgerBtn">
+                
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                
+                </button>
+            </div>
+        </div>
+        <!-- === Hero === -->
+        <div class="hero">
+            <div class="container hero__inner">
+                <div class="hero__badge">+800 فرصة متاحة</div>
+                <h1 class="hero__title">اكتشف فرصتك <span class="hero__accent">الخضراء</span></h1>
+                <p class="hero__subtitle">منصة فرص خضرا — من وإلى الشباب العربي. منح، تدريبات، ومسابقات تفتح أبواباً جديدة.
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- === Main === -->
+    
+    <main class="container">
+    
+        <!-- === Filters === -->
+    
+        <section class="filters-section">
+    
+            <div class="search-box">
+    
+                <input type="text" id="searchInput" placeholder="ابحث عن فرصة...">
+    
+            </div>
+    
+            <div class="filters">
+    
+                <select id="typeFilter">
+    
+                    <option value="all">جميع الأنواع</option>
+    
+                    <option value="منحة">منحة</option>
+    
+                    <option value="تدريب">تدريب</option>
+    
+                    <option value="مسابقة">مسابقة</option>
+    
+                </select>
+    
+                <select id="fundingFilter">
+    
+                    <option value="all">جميع حالات التمويل</option>
+    
+                    <option value="ممولة بالكامل">ممولة بالكامل</option>
+    
+                    <option value="ممولة جزئياً">ممولة جزئياً</option>
+    
+                    <option value="غير ممولة">غير ممولة</option>
+    
+                </select>
+    
+            </div>
+    
+        </section>
+    
+        <!-- === Stats === -->
+    
+        <section class="stats">
+    
+            <p id="resultsCount">
+                عدد الفرص المتاحة: 0
+            </p>
+    
+        </section>
+    
+        <!-- Cards -->
+    
+        <section class="opportunities-grid" id="opportunitiesContainer">
+    
+        </section>
+    
+        <!-- Empty State -->
+    
+        <div class="empty-state hidden" id="emptyState">
+    
+            <div class="empty-icon">
+                🌱
+            </div>
+    
+            <h3>
+                لا توجد نتائج مطابقة
+            </h3>
+    
+            <p>
+                جرّب كلمات بحث أو فلاتر مختلفة
+            </p>
+    
+        </div>
+    
+    </main>
+
+    <!-- === footer === -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <img src="images/white-Logo.png" alt="logo" class="logo-icon">
+                <div class="logo-text">
+                    <span class="logo-ar" style="color:white">فرص خضراء</span>
+                    <span class="logo-en" style="color:#ABE188">FORAS KHADRA</span>
+                </div>
+            </div>
+            <p class="footer__tagline">من وإلى الشباب العربي</p>
+            <div class="footer__links">
+                <a target="_blank" href="info@foraskhadra.com">info@foraskhadra.com</a>
+                <span>·</span>
+                <a target="_blank" href="https://www.foraskhadra.com">www.foraskhadra.com</a>
+            </div>
+            <p class="footer__copy">© 2026 فرص خضراء — جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
